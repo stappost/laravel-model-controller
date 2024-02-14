@@ -1,1 +1,25 @@
 @import '~bootstrap/scss/bootstrap';
+
+.card {
+    background-color: rgba(2, 9, 50, 0.761);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    background-image: url('https://img.lovepik.com/background/20211022/large/lovepik-film-background-board-film-background-image_500877889.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .rotatex {
+        transform: rotatex(180deg);
+        opacity: 70%;
+    }
+
+    .bg_white {
+        background-color: rgba(255, 255, 255, 0.283);
+    }
+}

@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center my-5">MOVIES</h1>
-    </header>
+    @include('partials.header')
     <main>
-        @yield('content')
+        <div class="bg_white">
+            @yield('content')
+        </div>
     </main>
 </body>
 
