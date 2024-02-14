@@ -62,3 +62,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Scaffolding
+1- creare model Movie
+2- creare controller PageController
+3- inserire i dati del database nel file .env
+4- all'interno del controller creare metodo che restituisce una view
+5- creare il layout
+6- creare la view
+7- includere il controller in web.php
+8- creare la rotta per il metodo
+9- all'interno della view mostro i dati passati con il metodo
