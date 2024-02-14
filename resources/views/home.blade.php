@@ -6,8 +6,9 @@
         <div class="row justify-content-center">
             @foreach ($movies as $movie)
                 <div class="col-4">
-                    <div class="card my-3 p-2 text-white">
-                        <h3 class="py-2">{{ $movie->title }}</h3>
+                    <div class="card my-3 p-2 text-white text-center">
+                        <h3 class="py-2"><a href="{{ route('details', ['param' => $movie['id']]) }}"> {{ $movie->title }}
+                            </a></h3>
                         <h5>Titolo originale: {{ $movie->original_title }}</h5>
                         <p class="pt-3">Nazionalità: {{ $movie->nationality }}</p>
                         <p>Data: {{ $movie->date }}</p>
